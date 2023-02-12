@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap");
+
+body {
+  font-family: "Space Mono", monospace;
+  font-size: larger;
+  font-weight: normal;
+  word-spacing: normal;
+  letter-spacing: 1px;
+  color: #002fa7;
+  background-color: #ea7e5d;
+}
+
+.full-info {
+  display: flex;
+  border-left: 20px solid #004d00;
+  background-color: #0bda51;
+  border-radius: 10px;
+}
+
+.info {
+  margin-left: 10px;
+  font-style: italic;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.info h1 {
+  margin-bottom: 5px;
+}
+
+.card h2 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.card-1 {
+  border-left: 20px solid #1b877e;
+  background-color: #08e8de;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.card-1 p {
+  margin: 10px 0px;
+}
+
+.card-2 {
+  border-left: 20px solid #414833;
+  background-color: #964b00;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.card-3 {
+  border-left: 20px solid #ffa500;
+  background-color: #ffca86;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.card-4 {
+  border-left: 20px solid #a14d0d;
+  background-color: #ff8800;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+.container {
+  margin: auto;
+  max-width: 800px;
+}
+
+.img {
+  padding-top: 10px;
+}
+
+.img img {
+  width: 270px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container > div {
+  padding: 0px 10px 10px 10px;
+  margin-bottom: 15px;
+}
+
+a {
+  color: #5d9b9b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1f0e11;
+}
+
+a:active {
+  color: #543964;
+}
+
+a:visited {
+  color: #161a1e;
+}
+
+.btn {
+  background-color: #434750;
+  color: #fba0e3;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:active {
+  background-color: #575e4e;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  padding: 5px;
+  border-bottom: 2px solid #ff2400;
+}
+
+.list li:hover {
+  background-color: #5e490f;
+}
+
+.table {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table tr td,
+.table thead tr th {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 33%;
+  height: 25%;
+  padding-bottom: 10px;
+}
+
+.table thead tr th {
+  padding-top: 10px;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #6699cc;
+  color: #302112;
+}
+
+.forms {
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 15px 0 10px;
+  width: 100%;
+}
+
+.form-flex {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-flex div {
+  width: 50%;
+  margin-right: 10px;
+  border-bottom: 2px solid #59351f;
+}
+
+.form-flex div label {
+  display: block;
+}
+
+.textarea {
+  width: 100%;
+  border-bottom: 2px solid #59351f;
+}
+
+.card-4 form div {
+  font-size: 14px;
+}
+
+@media (max-width: 800px) {
+  .full-info {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .form-flex {
+    display: block;
+  }
+
+  .form-flex div {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
